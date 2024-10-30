@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/madhukamesh/argocd-app-gitops.git # Git repository URL
     targetRevision: HEAD  # Branch or tag, e.g., 'main', 'master', 'v1.0'
-    path: kubn8s  # Path to the Kubernetes manifests inside the Git repo
+    path: k8s  # Path to the Kubernetes manifests inside the Git repo
   destination:
     server: https://kubernetes.default.svc  # Kubernetes API server, leave as is for Minikube
     namespace: default  # Namespace in which to deploy your app (e.g., 'default')
