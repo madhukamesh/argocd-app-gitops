@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:alpine
-        ports:
-        - containerPort: 80
+        - name: angular
+          image: ghcr.io/madhukamesh/angular:v3
+          ports:
+            - containerPort: 4200
