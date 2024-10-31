@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: angular
-          image: ghcr.io/madhukamesh/angular:v3
+          image: ghcr.io/madhukamesh/angular:v7
           ports:
             - containerPort: 4200
